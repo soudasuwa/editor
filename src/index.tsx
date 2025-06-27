@@ -1,3 +1,5 @@
-export const Button = () => {
-	return <button type="button">Hello from Button</button>;
+import { Button } from "@/components/ui/button";
+
+export const MyButton = () => {
+	return <Button>Hello from Button</Button>;
 };
