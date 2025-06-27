@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.tsx"],"sourcesContent":["export const Button = () => {\n\treturn <button type=\"button\">Hello from Button</button>;\n};\n"],"mappings":"AACQ,cAAAA,MAAA,oBADD,IAAMC,EAAS,IACdD,EAAC,UAAO,KAAK,SAAS,6BAAiB","names":["jsx","Button"]}
