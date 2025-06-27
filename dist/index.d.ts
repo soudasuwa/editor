@@ -1,5 +1,5 @@
 import * as react_jsx_runtime from 'react/jsx-runtime';
 
-declare const MyButton: () => react_jsx_runtime.JSX.Element;
+declare function ProfileForm(): react_jsx_runtime.JSX.Element;
 
-export { MyButton };
+export { ProfileForm };

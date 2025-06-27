@@ -54,6 +54,7 @@ export function ProfileForm() {
 					)}
 				/>
 				<Button type="submit">Submit</Button>
+				<p className="p-4 text-red">Nice</p>
 			</form>
 		</Form>
 	);
