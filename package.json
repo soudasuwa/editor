@@ -1,0 +1,39 @@
+{
+	"name": "editor",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsup",
+		"format": "pnpm exec biome format --write",
+		"lint": "pnpm exec biome lint --write",
+		"check": "pnpm exec biome check --write",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"packageManager": "pnpm@10.12.4",
+	"devDependencies": {
+		"@biomejs/biome": "2.0.6",
+		"@types/react": "^19.1.8",
+		"@types/react-dom": "^19.1.6",
+		"tsup": "^8.5.0",
+		"typescript": "^5.8.3"
+	},
+	"tsup": {
+		"entry": [
+			"src/index.tsx"
+		],
+		"splitting": false,
+		"sourcemap": true,
+		"clean": true
+	},
+	"dependencies": {
+		"react": "^19.1.0",
+		"react-dom": "^19.1.0"
+	},
+	"engines": {
+		"node": ">=20"
+	}
+}
